@@ -61,7 +61,6 @@ $ 'html
 ```
 
 When you move the mouse, the log message appears. If you keep moving the mouse, further messages will not appear. If you keep the mouse steady for three seconds, then you can move it for the message to appear again.
-```
 
 
 ### debounceLast ( msTimeout, [context], callback )
