@@ -1,0 +1,29 @@
+{
+  "name": "jquery.timer-tools",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lolmaus/jquery.timer-tools",
+  "authors": ["Andrey Mikhaylov aka lolmaus <lolmaus@gmail.com>"],
+  "description": "Handy decorators for delaying, debouncing and throttling callbacks.",
+  "main": "jquery.timer-tools.min.js",
+  "keywords": [
+    "jquery.timer-tools",
+    "jquery.timer.tools",
+    "jquery-timer-tools",
+    "jquery-timer.tools",
+    "jquery.timertools",
+    "jquery-timertools",
+    "timer-tools",
+    "timer.tools",
+    "timertools",
+    "debounce",
+    "throttle",
+    "delay",
+    "timeout",
+    "settimeout",
+    "decorator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
