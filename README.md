@@ -62,7 +62,7 @@ $('html').mousemove(
 same with CoffeeScript:
 
 ```coffee
-$ 'html
+$ 'html'
   .mousemove $.debounceFirst 3000, ->
     console.log 'foo'
 ```
@@ -87,7 +87,7 @@ $('html').mousemove(
 same with CoffeeScript:
 
 ```coffee
-$ 'html
+$ 'html'
   .mousemove $.debounceLast 3000, ->
     console.log 'foo'
 ```
@@ -112,7 +112,7 @@ $('html').mousemove(
 same with CoffeeScript:
 
 ```coffee
-$ 'html
+$ 'html'
   .mousemove $.throttle 3000, ->
     console.log 'foo'
 ```
