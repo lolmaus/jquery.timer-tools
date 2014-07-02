@@ -32,7 +32,7 @@ $.extend
 
   debounceFirst: (msTimeout, context, callback) ->
     if arguments.length < 2
-      throw "debounceLast called with less than two arguments"
+      throw "debounceFirst called with less than two arguments"
       
     else if arguments.length is 2
       [context, callback] = [undefined, context]
@@ -53,7 +53,7 @@ $.extend
 
   throttle: (msTimeout, context, callback) ->
     if arguments.length < 2
-      throw "debounceLast called with less than two arguments"
+      throw "throttle called with less than two arguments"
       
     else if arguments.length is 2
       [context, callback] = [undefined, context]
