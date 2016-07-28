@@ -5,7 +5,7 @@ inspired by https://code.google.com/p/jquery-debounce/
 MIT license
 ###
 
-$.extend
+jQuery.extend
 
   delay: (msTimeout, callback) ->
     setTimeout callback, msTimeout
@@ -25,7 +25,7 @@ $.extend
       
       clearTimeout timer
       
-      timer = $.delay msTimeout, ->
+      timer = jQuery.delay msTimeout, ->
         callback.apply context, args
         timer = null
 
@@ -47,7 +47,7 @@ $.extend
       
       clearTimeout timer
       
-      timer = $.delay msTimeout, ->
+      timer = jQuery.delay msTimeout, ->
         timer = null
 
 
@@ -65,5 +65,6 @@ $.extend
       
       unless timer
         callback.apply context, args
-        timer = $.delay msTimeout, ->
+        timer = jQuery.delay msTimeout, ->
           timer = null
+
